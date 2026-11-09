@@ -1,0 +1,9 @@
+:root{color-scheme:light dark}
+body{font:15px/1.5 system-ui,sans-serif;max-width:900px;margin:0 auto;padding:20px 16px}
+.card{border:1px solid #8883;border-radius:12px;padding:16px;margin-top:12px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+form{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
+input,select,button{font:inherit;padding:9px;border-radius:8px;border:1px solid #8885;min-width:0}
+button{background:#1f7a5a;color:#fff;border:0;cursor:pointer;font-weight:600}
+.row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #8882}
+.ai{white-space:pre-wrap}
